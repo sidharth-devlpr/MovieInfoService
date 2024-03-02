@@ -1,0 +1,2 @@
+# MovieInfoService
+Returns movie details
