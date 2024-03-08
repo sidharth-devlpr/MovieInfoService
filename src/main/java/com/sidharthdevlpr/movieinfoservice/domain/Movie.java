@@ -1,22 +1,24 @@
 package com.sidharthdevlpr.movieinfoservice.domain;
 
+import java.util.List;
+
 public class Movie {
-    private String movieId;
+    private int movieId;
     private String name;
 
     public Movie() {
     }
 
-    public Movie(String movieId, String name) {
+    public Movie(int movieId, String name) {
         this.movieId = movieId;
         this.name = name;
     }
 
-    public String getMovieId() {
+    public int getMovieId() {
         return movieId;
     }
 
-    public void setMovieId(String movieId) {
+    public void setMovieId(int movieId) {
         this.movieId = movieId;
     }
 
